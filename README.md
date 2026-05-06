@@ -1,6 +1,4 @@
- Here’s the complete README.md content ready for one-click copy:markdown
-
-# Flask CI/CD Pipeline Project 🚀
+Flask CI/CD Pipeline Project 🚀
 
 **A complete DevOps hands-on project** — Building, testing, containerizing, and deploying a Python Flask web application using **GitHub Actions** and **Docker**.
 
@@ -87,7 +85,7 @@ Implement security scanning (Trivy)
 Add environment variables & secret management
 Custom domain + monitoring
 
- About MeSheriffdeen Ahmed
+ About Me Sheriffdeen Ahmed
 Aspiring DevOps Engineer | Passionate about automation, CI/CD, and cloud-native technologies.X (Twitter): @AhmedSheriffdin
 
 Built as part of the DevOps Engineering Pod on xterns.ai
