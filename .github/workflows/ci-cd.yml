@@ -36,11 +36,15 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
+    # === REQUIRED PERMISSIONS ===
+    permissions:
+      contents: read
+      packages: write
+
     steps:
       - uses: actions/checkout@v4
 
-      # === Reliable Lowercase Fix ===
-      - name: Set lowercase repo variables
+      - name: Set lowercase image name
         run: |
           echo "IMAGE_NAME=ghcr.io/${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
 
